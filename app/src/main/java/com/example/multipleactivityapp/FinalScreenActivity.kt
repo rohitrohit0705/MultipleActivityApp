@@ -15,16 +15,6 @@ import com.example.multipleactivityapp.ui.theme.MultipleActivityAppTheme
 class FinalScreenActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContent {
-            MultipleActivityAppTheme {
-                // A surface container using the 'background' color from the theme
-                Surface(
-                    modifier = Modifier.fillMaxSize(),
-                    color = MaterialTheme.colors.background
-                ) {
 
-                }
-            }
-        }
     }
 }

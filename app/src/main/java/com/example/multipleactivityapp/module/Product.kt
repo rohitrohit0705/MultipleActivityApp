@@ -1,4 +1,4 @@
-package com.example.multipleactivityapp
+package com.example.multipleactivityapp.module
 
 data class Product(
     val id: Int,
